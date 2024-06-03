@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+div{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.header{
+    background-color: rgb(185, 117, 140);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.nav{
+    background-color: rgba(250, 117, 139, 0.575);
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover {
+    color: blanchedalmond;
+}
+.main{
+    display: flex;
+    background-color: rgb(250, 182, 182);
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(231, 157, 170);
+    padding: 20px;
+}
+ 
+.content .artikel {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: rgb(185, 117, 140);
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 10px;
+    line-height: 1.6em;
+}
+
+.content .artikel .read{
+    color: black;
+    border: 1px solid lightgray;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.content .artikel .read a {
+    color: black;
+}
+.sidebar {
+    justify-content: left;
+    border: 1px solid lightgray;
+    background-color: pink;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    text-align: left;
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+
+}
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.footer {
+    background-color: rgb(156, 81, 106);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
